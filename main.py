@@ -49,7 +49,7 @@ for i in range(1, 41):
             "ans5": list[4]
         }
         save_file = open(f'bilet{i}quest{bo + 1}.json', "w", encoding="utf-8")
-        json.dump(value, save_file, indent=6, ensure_ascii=False)
+        json.dump(value, save_file, indent=9, ensure_ascii=False)
         save_file.close()
 
 
